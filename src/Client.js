@@ -303,7 +303,7 @@ class Client extends EventEmitter {
         this.pupBrowser = browser;
         this.pupPage = page;
 
-        await this.authStrategy.afterBrowserInitialized();
+        // await this.authStrategy.afterBrowserInitialized();
         await this.initWebVersionCache();
 
         // ocVersion (isOfficialClient patch)
